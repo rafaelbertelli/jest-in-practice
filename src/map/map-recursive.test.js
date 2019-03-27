@@ -7,6 +7,10 @@ describe("Test map.js", () => {
     expect(map).to.be.a("function")
   })
 
+  it('map([], () => {}), should return []', () => {
+    expect(map([], () => {})).to.be.deep.equal([])
+  })
+
   it('map([1, 2], (item) => item) should return [1, 2]', () => {
     expect(map([1, 2], (item) => item)).to.be.deep.equal([1, 2])
   })
