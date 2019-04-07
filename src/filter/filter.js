@@ -1,3 +1,5 @@
+"use strict";
+
 const myFilter = (arr, fn) => {
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
