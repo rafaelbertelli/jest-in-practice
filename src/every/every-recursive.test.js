@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import every from "./every";
+import every from "./every-recursive";
 
 describe("every.js", () => {
   it("should be a function", () => {
